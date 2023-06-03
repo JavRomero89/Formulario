@@ -8,7 +8,9 @@
 </head>
 <body>
     <form action="">
-        <label for="time">Elija una Hora</label>
+        <fieldset>
+            <legend>Complete, porfavor</legend>
+        <label for="time">Elija una Hora:</label>
         <input type="time" name="time" id="time"><br>
         <textarea id="" name="" rows="6" cols="45">Utilice este cuadro para escribir.</textarea><br>
         <input type="radio" name="lenguaje" id="" value="lenguajejava">
@@ -22,8 +24,38 @@
         <label for="date">Elija un fichero:</label>
         <input type="file" name="file" id="file"><br>
         <label for="date">Elija una Fecha:</label>
-        <input type="date" name="date" id="date">
-
+        <input type="date" name="date" id="date"><br>
+        <label for="color">Elija un color:</label>
+        <input type="color" name="color" id="color">
+        </fieldset>
+        <fieldset>
+            <legend>Rellene las opciones siguientes</legend>
+        <input type="checkbox" name="procesador" id="" value="procesadorintel">
+        <label for="checkbox">Intel</label><br>
+        <input type="checkbox" name="procesador" id="" value="procesadoramd">
+        <label for="checkbox">AMD</label><br><br>
+        <label for="time">Elija una Hora:</label>
+        <input type="time" name="time" id="time"><br>
+        <label for="date">Elija un fichero:</label>
+        <input type="file" name="file" id="file"><br>
+        <input type="radio" name="procesador" id="" value="procesadoramd">
+        <label for="radio">AMD</label>
+        <input type="radio" name="procesador" id="" value="procesadorintel_i5">
+        <label for="radio">Intel i5</label>
+        <input type="radio" name="procesador" id="" value="procesadorintel_i7">
+        <label for="radio">Intel i7</label><br>
+        <textarea id="" name="" rows="4" cols="55">Utilice este recuadro por favor.</textarea><br>
+        <label for="DNI">DNI:</label><br>
+        <input type="text" name="DNI"><br>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" name="nombre"><br>
+        <label for="apellidos">Apellidos:</label><br>
+        <input type="text" name="apellidos"><br>
+        <label for="telefono">Telefono:</label><br>
+        <input type="tel" name="telefono"><br>
+        <label for="color">Elija un color:</label>
+        <input type="color" name="color" id="color">
+        </fieldset>
     </form>
 
 </body>
